@@ -1,0 +1,24 @@
+/* hover color: #66fcf1
+background: #1f2833
+menu background: #172A45*/
+body {
+  background: #0a192f !important;
+  margin: 0px;
+  padding: 0;
+}
+.container{
+  display: flex;
+  padding:0;
+}
+.social{
+  background-color: #0a192f ;
+  height: 100vh;
+  margin-top: 25%;
+  margin-left:-110px ;
+}
+@media only screen and (max-width: 1100px) {
+  .social{
+    margin-left: -40px;
+    margin-top:32.5%;
+  }
+}
